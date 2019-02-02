@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>页面效果</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: snow;
+        }
+        .wrapper{
+            width: 80%;
+            height: 800px;
+            background: antiquewhite;
+            margin: 0 auto;
+        }
+        .heading{
+            width: 100%;
+            height: 90px;
+            background-color: snow;
+            margin: 0 auto;
+        }
+        .heading-nav{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width: 100%;
+            height: 30px;
+            position: relative;
+
+        }
+        .heading-title{
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: burlywood;
+        }
+        ul{
+            margin-left: 40px;
+            padding: 6px 0px;
+            float: left;
+            list-style-type: none;
+        }
+        li{
+            padding-left: 10px;
+            display: inline;
+        }
+        a:link, a:visited{
+            font-weight: bold;
+            color: darkgray;
+            text-align: center;
+            padding: 6px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: dimgray;
+        }
+
+        .heading-img img{
+            width: 26px;
+            height: 26px;
+            border-radius: 30px;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+            float: right;
+        }
+
+        .heading-spotlight form{
+            float: right;
+            position: relative;
+            margin-right: 100px;
+            width: 100px;
+            height: 30px;
+        }
+
+        form input{
+            height: 26px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading">
+                <div class="heading-nav">
+                    <div class="heading-title">chan的个人主页</div>
+                    <div class="heading-navbar">
+                        <ul>
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">分类</a></li>
+                            <li><a href="#">标签</a></li>
+                            <li><a href="#">关于</a></li>
+                        </ul>
+                    </div>
+                    <div class="heading-img">
+                        <img src="banner.jpg" />
+                    </div>
+                    <div class="heading-spotlight">
+                        <form action="">
+                            <input type="text" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="body"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
