@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>定位</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            position: relative;
+            left: 300px;
+            top: 100px;
+            width: 375px;
+            height: 667px;
+            background-color: #afafaf;
+        }
+        #container .box-one{
+            width: 350px;
+            height: 160px;
+            background-color: #fff;
+            border: 1px solid #333;
+            margin-top: 20px;
+        }
+        #box1{
+            position: absolute;
+            top: 0px;
+            left: 12px;
+        }
+        #box2{
+            position: absolute;
+            top: 180px;
+            left: 12px;
+        }
+        #box3{
+            position: absolute;
+            top: 360px;
+            left: 12px;
+        }
+
+        .box-one img{
+            position: absolute;
+            left: 25px;
+            top: 10px;
+        }
+
+        .box-one p{
+            position: absolute;
+            left: 25px;
+            top: 135px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box-one" id="box1">
+            <img src="./img/300-125.jpg" />
+            <p>我是标题</p>
+        </div>
+        <div class="box-one" id="box2">
+            <img src="./img/300-125.jpg" />
+            <p>我是标题</p>
+        </div>
+        <div class="box-one" id="box3">
+            <img src="./img/300-125.jpg" />
+            <p>我是标题</p>
+        </div>
+    </div>
+</body>
+</html>

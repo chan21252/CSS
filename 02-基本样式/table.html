@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表格样式</title>
+    <style type="text/css">
+        #tb{
+            border-collapse: collapse;
+            width: 500px;
+            height: 150px;
+            text-align: center;
+        }
+        #tb th, #tb td{
+            border: 1px solid #afafaf;
+        }
+
+        #tb th{
+            background: #bb0000;
+            color: #fff;
+        }
+        #tb .alt td{
+            background-color: #ffcccc;
+        }
+    </style>
+</head>
+<body> 
+    <table id="tb">
+        <tr>
+            <th>姓名</th>
+            <th>表字</th>
+            <th>阵营</th>
+        </tr>
+        <tr>
+            <td>赵云</td>
+            <td>子龙</td>
+            <td>蜀</td>
+        </tr>
+        <tr class="alt">
+            <td>诸葛亮</td>
+            <td>孔明</td>
+            <td>蜀</td>
+        </tr>
+        <tr>
+            <td>周瑜</td>
+            <td>公瑾</td>
+            <td>吴</td>
+        </tr>
+        <tr class="alt">
+            <td>郭嘉</td>
+            <td>奉孝</td>
+            <td>魏</td>
+        </tr>
+        <tr>
+            <td>张辽</td>
+            <td>文远</td>
+            <td>魏</td>
+        </tr>
+    </table>
+</body>
+</html>

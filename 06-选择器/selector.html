@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选择器</title>
+    <style>
+    h1{
+        color: #ee00ff;
+    }
+    .div1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: cadetblue;
+    }
+
+    #mydiv{
+        color: crimson;
+    }
+    [title]{
+        color: darkorchid;
+    }
+    [title=chibi2]{
+        color: greenyellow;
+    }
+
+    [title~=zui]{
+        color: khaki;
+    }
+
+    p strong{
+        color: #33eeee;
+    }
+
+    strong>i{
+        color: #33ee33;
+    }
+
+    p+p{
+        color: #ee33ee;
+    }
+    </style>
+</head>
+<body>
+    <h1>大江东去</h1>
+    <p>
+        <span class="div1">浪淘尽</span>
+        千古风流人物
+    </p>
+    <div id="mydiv">故垒西边</div>
+    <div title="chibi">人道是</div>
+    <div title="chibi2">三国周郎赤壁</div>
+    <div title="zui chibi">乱石穿空</div>
+    
+    <p>
+        惊涛拍案<strong>卷起千堆雪<i>江山如画</i></strong>
+    </p>
+
+    <div>
+        <p>一时多少豪杰</p>
+        <p>遥想公瑾当年</p>
+        <p>小乔初嫁了</p>
+    </div>
+</body>
+</html>
